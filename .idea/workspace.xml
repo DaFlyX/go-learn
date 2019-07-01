@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05496de6-b821-43e0-b729-694ec8e4c938" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="05496de6-b821-43e0-b729-694ec8e4c938" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,11 +10,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_1.基础语法/pointer.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_2.内建容器/array.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-665">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -49,6 +56,7 @@
         <option value="$PROJECT_DIR$/_1.基础语法/circulation.go" />
         <option value="$PROJECT_DIR$/_1.基础语法/function.go" />
         <option value="$PROJECT_DIR$/_1.基础语法/pointer.go" />
+        <option value="$PROJECT_DIR$/_2.内建容器/array.go" />
       </list>
     </option>
   </component>
@@ -72,7 +80,7 @@
             <path>
               <item name="go-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="_1.基础语法" type="462c0819:PsiDirectoryNode" />
+              <item name="_2.内建容器" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -108,13 +116,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build pointer.go">
+  <component name="RunManager" selected="Go Build.go build array.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/" />
+      <package value="go-learn" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-learn" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/_2.内建容器/array.go" />
       <package value="go-learn" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -133,15 +150,6 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/_1.基础语法/conditionalStatement.go" />
-      <package value="go-learn" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build constAndEnum.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-learn" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/_1.基础语法/constAndEnum.go" />
       <package value="go-learn" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -177,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build array.go" />
         <item itemvalue="Go Build.go build pointer.go" />
         <item itemvalue="Go Build.go build function.go" />
         <item itemvalue="Go Build.go build circulation.go" />
         <item itemvalue="Go Build.go build conditionalStatement.go" />
-        <item itemvalue="Go Build.go build constAndEnum.go" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +197,7 @@
     <frame x="916" y="0" width="960" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25555557" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25555557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -280,6 +288,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_2.内建容器/array.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
